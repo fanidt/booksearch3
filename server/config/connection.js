@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 
 mongoose.connect(
-  process.env.MONGODB_URI || "mongodb://localhost/bookworm-search-engine", 
+  process.env.MONGODB_URI || "mongodb://localhost/booksearch3", 
   {
   useNewUrlParser: true,
   useUnifiedTopology: true,
